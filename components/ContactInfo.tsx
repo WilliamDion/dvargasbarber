@@ -4,7 +4,7 @@ import { BUSINESS_HOURS } from '@/src/config/business-hours'
 
 export default function Contact() {
   const whatsappNumber = "5551980583680" 
-  const instagramUser = "dvargasbarber/" 
+  const instagramUser = "dvargasbarber" 
   const address = "R. Nestor de Moura Jardim, 475 - Salgado Filho - Gravataí - RS"
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`
 
@@ -42,7 +42,7 @@ export default function Contact() {
 
               {/* Instagram */}
               <a 
-                href={`https://instagram.com/${instagramUser}`}
+                href={`https://instagram.com/${instagramUser}/`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center group"
